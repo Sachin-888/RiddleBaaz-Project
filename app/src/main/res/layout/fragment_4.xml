@@ -1,0 +1,131 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/task"
+        android:layout_marginEnd="20dp"
+        app:tint="@color/two" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attemped"
+        android:layout_gravity="bottom"
+
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:layout_gravity="bottom"
+        android:text="total"/>
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/done"
+        android:layout_marginEnd="20dp"
+        app:tint="@color/two" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Correct"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/correct"
+        android:layout_gravity="bottom"
+        android:text="correct"
+        />
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/target"
+        app:tint="@color/two"
+        android:layout_marginEnd="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Accuracy"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accuracy"
+        android:layout_gravity="bottom"
+        android:text="14/35"
+        />
+
+  </LinearLayout>
+  <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:visibility="visible"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+      android:text="Reset Stat"
+        android:id="@+id/reset"
+        android:visibility="visible"
+        />
+  </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+  <ProgressBar
+      android:id="@+id/progress"
+      android:layout_marginTop="20dp"
+      style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+
+      android:background="@color/two" />
+
+  <Button
+      android:id="@+id/refresh"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Refresh"
+      android:visibility="invisible" />
+
+  <Button
+      android:id="@+id/ad"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Up"
+      android:visibility="invisible" />
+
+
+</LinearLayout>

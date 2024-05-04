@@ -1,0 +1,173 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:textSize="12sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More info"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/link"
+        android:maxWidth="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="20dp"
+        android:maxHeight="20dp"/>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/one"
+        android:textColorLink="@color/two"
+        android:text="www.youtube.com/@RiddleBaaz"
+        android:autoLink="web"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/earth"
+            android:maxWidth="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxHeight="20dp"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/two"
+            android:text="India"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/info"
+            android:maxWidth="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxHeight="20dp"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/two"
+
+
+            android:text="Created 7 Apr 2024"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/trend"
+            android:maxWidth="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxHeight="20dp"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/two"
+
+
+            android:text="3000+ viewers"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/call"
+            android:maxWidth="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxHeight="20dp"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:textColorLink="@color/two"
+            android:text="+91 7027974266"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mail"
+            android:maxWidth="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxHeight="20dp"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/two"
+            android:autoLink="email"
+
+            android:text="ssehgal6745@gmail.com"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

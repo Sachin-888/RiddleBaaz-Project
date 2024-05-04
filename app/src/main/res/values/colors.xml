@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white1">#FFFFFFFF</color>
+
+
+    <color name="one1">#00cca4</color>
+    <color name="two1">#00e89d</color>
+    <color name="three">#FF6565</color>
+    <color name="four">#f5f5f5</color>
+
+
+    <color name="one">#2962FF</color>
+    <color name="two">#B41E88E5</color>
+    <color name="white">#ffffff</color>
+    <color name="enBtn">#2962ff</color>
+    <color name="dnBtn">#757572</color>
+    <color name="option">#0F1E88E5</color>
+
+
+
+    <color name="green">#CB40C80F</color>
+<!--    <color name="one">#0845FF</color>-->
+<!--    <color name="two">#8DA3F4</color>-->
+<!--    <color name="three">#FF6565</color>-->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#00BCD4</color>
+<!--    <color name="four">#f5f5f5</color>-->
+
+</resources>
